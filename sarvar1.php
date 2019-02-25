@@ -21,9 +21,13 @@
 
 								<input style="width: 50px" placeholder="c." type="text"  name="nameIndex3[]">  &nbsp 
 
-								<input style="width: 100px" placeholder="tog`ri javob" type="text"  name="nameIndex4[]"> <br><br> <br><br> 
-					
-							</td></tr></table>';
+								<input style="width: 100px" placeholder="tog`ri javob" type="text"  name="nameIndex4[]"> &nbsp
+					            <select name="savol_javob[]" >
+                                 	<option value="a">a</option>
+                                 	<option value="b">b</option>
+                                 	<option value="c">c</option> 				 
+					            </select> 
+							</td></tr></table><br><br>';
 						}
     					echo '<button type="submit">Yuklash</button>';
 					}
